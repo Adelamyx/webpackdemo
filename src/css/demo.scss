@@ -1,0 +1,19 @@
+$nav-color: red;
+$size-x: 16px;
+
+
+#title {
+  font-size: 0.16rem;
+  text-align: center;
+  color: #ebf1ff;
+  padding: 0.1rem 0;
+}
+
+.tt {
+  color: $nav-color;
+  font-size: $size-x;
+}
+
+.aaa {
+  background: red;
+}

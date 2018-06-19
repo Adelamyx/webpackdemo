@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>demo</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <script>
+    (function(w,d){
+        function rem() {
+            d.getElementsByTagName('html')[0].style.fontSize = Math.min(d.documentElement.getBoundingClientRect().width, 500) * 100 / 375 + 'px';
+        }
+        rem();
+        w.onresize = rem;
+    })(window,document);
+  </script>
+</head>
+<body>
+    <div class="index-wrapper">
+      <h1 id="title">数位跟踪器标签读写</h1>
+			<ul class="lists">
+				<li  class="item">
+					<a href="//www.baidu.com/">
+						<img src="./images/bq.png" alt="" class="pic">
+						<span>标签读写</span>
+					</a>
+				</li>
+				<li  class="item">
+					<a href="//www.qq.com/">
+						<img src="./images/bq.png" alt="" class="pic">
+						<span>数据信息</span>
+					</a>
+				</li>
+				<li  class="item">
+					<a href="#">
+						<img src="./images/bq.png" alt="" class="pic">
+						<span>历史操作</span>
+					</a>
+				</li>
+				<li  class="item">
+					<a href="#">
+						<img src="./images/bq.png" alt="" class="pic">
+						<span>个人中心</span>
+					</a>
+				</li>
+				<li  class="item">
+					<a href="#">
+						<img src="./images/bq.png" alt="" class="pic">
+						<span>消息管理</span>
+					</a>
+				</li>
+				<li  class="item">
+					<a href="#">
+						<img src="./images/bq.png" alt="" class="pic">
+						<span>关于</span>
+					</a>
+				</li>
+			</ul>
+			<p class="tip">颜色、字体、图片的大小可能需要修改</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  background: #e4e4e4;
+}
+
+.headimg {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  background-image: url('../images/goods.jpeg');
+  background-size: contain;
+  transform: rotate(45deg);
+}

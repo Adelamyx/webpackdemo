@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*CSS Reset*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+header,
+hgroup,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+figcaption,
+menu,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: simHei, "sans-serif";
+  line-height: 1.5;
+  font-size: 16px;
+  color: #333;
+  background-color: #eff2f7;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  -webkit-touch-callout: none;
+  text-decoration: none;
+  color: #42414f;
+}
+
+:focus {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
