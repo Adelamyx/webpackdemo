@@ -10,7 +10,7 @@ console.log(11, encodeURIComponent(process.env.type));
 
 if (process.env.type === 'build') {
   var website = {
-    publicPath: 'http://life.cekid.com'
+    publicPath: ''
   }
 } else {
   var website = {
